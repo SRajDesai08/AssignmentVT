@@ -1,0 +1,116 @@
+.center{
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+}
+
+
+.banner{
+    padding: 1rem;
+    height: 70vh;
+    width: 80%;
+    /* border: 2px solid black; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 25px 10px;
+    display: flex;
+}
+
+/* image section */
+
+.image{
+    /* border: 2px solid green; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.image img{
+    height: 450px;
+    width: 350px;
+    margin-top: 2rem;
+    
+}
+
+/* title section */
+
+.title{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+
+/* detail text */
+
+.dtext{
+    margin-top: 1rem;
+}
+
+.dtext p{
+    font-size: 1.2rem;
+}
+
+/* rating section */
+.rating{
+    /* background-color: rgb(153, 25, 25); */
+    color: #FFA41C;
+    font-weight: 700;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    /* padding: 5px; */
+    font-size: 1.5rem;
+    
+}
+.rpoints{
+    display: flex;
+    
+}
+ 
+.rating p{
+    margin: 1px;
+}
+
+.rcounts{
+    display: flex;
+}
+
+.rcounts p{
+    font-size: 1rem;
+}
+/* category section */
+
+.category{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+    width: 30%;
+    /* border: 2px solid red; */
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+/* Price section */
+.price{
+    background-color: #B12704;
+    color: #fff;
+    text-align: center;
+    padding-left: 5px;
+    margin-top: 5rem;
+    width: 30%;
+    
+    display: flex;
+}
+
+.price span{
+    font-size: 25px;
+}
+
+.price p{
+    margin-left: 0.5rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
