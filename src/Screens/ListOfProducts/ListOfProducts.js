@@ -26,14 +26,16 @@ const ListOfProducts = () => {
       <div className={style.plist}>
         {isLoading ? (
           // spinner from bootstrap
-          <div class="d-flex justify-content-center">
-            <div class="spinner-border" role="status">
-              <span class="sr-only">Loading...</span>
+          <div className={style.loadingWrapper}>
+            <div class="d-flex justify-content-center ">
+              <div class="spinner-border" role="status">
+                <span class="sr-only">Loading...</span>
+              </div>
             </div>
           </div>
         ) : (
           <>
-          {/* listing the items from api */}
+            {/* listing the items from api */}
             {products.map((product, index) => {
               return (
                 <div className={style.card}>
@@ -45,7 +47,9 @@ const ListOfProducts = () => {
                   <div className={style.cdetails}>
                     <div className={style.ctext}>
                       <p>{product.title}</p>
-                      <span className={style.desWrapper}>{product.description}</span>
+                      <span className={style.desWrapper}>
+                        {product.description}
+                      </span>
                     </div>
                     <div className={style.price}>
                       <span>₹</span>
@@ -76,4 +80,4 @@ const ListOfProducts = () => {
   );
 };
 
-export default ListOfProducts;//exporting the function
+export default ListOfProducts; //exporting the function

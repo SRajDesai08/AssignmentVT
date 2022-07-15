@@ -140,3 +140,13 @@
     font-size: 0.9rem;
     font-family: sans-serif;
 }
+
+/* loading wrapper */
+.loadingWrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

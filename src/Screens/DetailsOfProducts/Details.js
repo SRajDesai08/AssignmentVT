@@ -29,9 +29,11 @@ const Details = () => {
     <>
       {isLoading ? (
         //loading spinner from bootstrap
-        <div class="d-flex justify-content-center">
-          <div class="spinner-border" role="status">
-            <span class="sr-only">Loading...</span>
+        <div className={style.loadingWrapper}>
+          <div class="d-flex justify-content-center">
+            <div class="spinner-border" role="status">
+              <span class="sr-only">Loading...</span>
+            </div>
           </div>
         </div>
       ) : (
