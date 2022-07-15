@@ -45,7 +45,7 @@ const ListOfProducts = () => {
                   <div className={style.cdetails}>
                     <div className={style.ctext}>
                       <p>{product.title}</p>
-                      <span>{product.description}</span>
+                      <span className={style.desWrapper}>{product.description}</span>
                     </div>
                     <div className={style.price}>
                       <span>₹</span>
